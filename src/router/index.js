@@ -6,6 +6,7 @@ import NeedTreatment from '@/NeedTreatment';
 import NewAnimal from '@/NewAnimal';
 import NewHome from '@/NewHome';
 import PetsWanted from '@/PetsWanted';
+import ComContact from '@/ComContact';
 
 Vue.use(Router);
 
@@ -45,6 +46,11 @@ export default new Router({
       path: '/newAnimal',
       name: 'newAnimal',
       component: NewAnimal,
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: ComContact,
     },
   ],
   mode: 'history',
